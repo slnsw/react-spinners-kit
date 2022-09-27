@@ -15,20 +15,20 @@ A collection of loading spinners built with [styled-components](https://styled-c
 
 ## 🚀 Installation
 
-Install `react-spinners-kit` using npm.
+Install `@slnsw/react-spinners-kit` using npm.
 
-### `npm install --save react-spinners-kit`
+### `npm install --save @slnsw/react-spinners-kit`
 
 or if you prefer yarn
 
-### `yarn add react-spinners-kit`
+### `yarn add @slnsw/react-spinners-kit`
 
 ## 👨🏻‍💻 Usage
 
 ```jsx
 import React from "react";
 import ReactDOM from "react-dom";
-import { PushSpinner } from "react-spinners-kit";
+import { PushSpinner } from "@slnsw/react-spinners-kit";
 
 class App extends React.Component {
     constructor(props) {
