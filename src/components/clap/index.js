@@ -13,14 +13,10 @@ const rotate = keyframes`
 
 const move = props => keyframes`
     0% {
-        transform: translateX(${props.x}${props.sizeUnit}) translateY(${props.y}${
-    props.sizeUnit
-}) scale(1.25) ;
+        transform: translateX(${props.x}${props.sizeUnit}) translateY(${props.y}${props.sizeUnit}) scale(1.25) ;
     }
     5% {
-        transform: translateX(${props.x}${props.sizeUnit}) translateY(${props.y}${
-    props.sizeUnit
-}) scale(1.75);
+        transform: translateX(${props.x}${props.sizeUnit}) translateY(${props.y}${props.sizeUnit}) scale(1.75);
     }
     50% {
         transform: translateX(${props.x}${props.sizeUnit}) translateY(${props.y}${props.sizeUnit}) scale(.25);

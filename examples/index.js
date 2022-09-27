@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SyntaxHighlighter from "react-syntax-highlighter/prism";
-import { atomOneDark } from "react-syntax-highlighter/styles/hljs";
+// import Prism from "react-syntax-highlighter/dist/esm/prism";
+// import atomOneDark from "react-syntax-highlighter/dist/esm/styles/hljs/atom-one-dark";
 import {
     SwapSpinner,
     BarsSpinner,
@@ -46,9 +46,9 @@ const SpinnerWrapper = ({ children, name }) => {
         <div className="loader-item">
             {children}
             <div className="subcode">
-                <SyntaxHighlighter language="jsx" style={atomOneDark}>
+                {/* <Prism.SyntaxHighlighter language="jsx" style={atomOneDark}> */}
                     {`<${name} />`}
-                </SyntaxHighlighter>
+                {/* </Prism.SyntaxHighlighter> */}
             </div>
         </div>
     );
